@@ -96,9 +96,12 @@ const Header = () => {
                 exit={{ opacity: 0, scale: 0.6 }}
                 className="w-40 bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-12 right-0"
               >
-                {user && user.email === "welerson.ferreira.97@gmail.com" && (
+                {user && user.email === "contato.welerson@gmail.com" && (
                   <Link to={"/createItem"}>
-                    <p className="px-4 py-4 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base">
+                    <p
+                      className="px-4 py-4 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
+                      onClick={() => setIsMenu(false)}
+                    >
                       New Item <MdAdd />
                     </p>
                   </Link>
@@ -144,25 +147,40 @@ const Header = () => {
               exit={{ opacity: 0, scale: 0.6 }}
               className="w-40 bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-12 right-0"
             >
-              {user && user.email === "welerson.ferreira.97@gmail.com" && (
+              {user && user.email === "contato.welerson@gmail.com" && (
                 <Link to={"/createItem"}>
-                  <p className="px-4 py-2 flex items-center cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base">
+                  <p
+                    className="px-4 py-2 flex items-center cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
+                    onClick={() => setIsMenu(false)}
+                  >
                     New Item <MdAdd />
                   </p>
                 </Link>
               )}
 
               <ul className="flex flex-col ">
-                <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2">
+                <li
+                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  onClick={() => setIsMenu(false)}
+                >
                   Home
                 </li>
-                <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2">
+                <li
+                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  onClick={() => setIsMenu(false)}
+                >
                   Menu
                 </li>
-                <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2">
+                <li
+                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  onClick={() => setIsMenu(false)}
+                >
                   About Us
                 </li>
-                <li className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2">
+                <li
+                  className="text-base text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer hover:bg-slate-100 px-4 py-2"
+                  onClick={() => setIsMenu(false)}
+                >
                   Service
                 </li>
               </ul>
