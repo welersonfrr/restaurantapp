@@ -4,7 +4,7 @@ Projeto criado para teste de desenvolvimento com JS + Tailwindcss + Firebase (lo
 Totalmente responsivo com UI avançada
 
 ## Screenshots
-![localhost_3000_ (1)](https://user-images.githubusercontent.com/89513813/226938369-05bc5ee6-b6e3-4c59-bdc7-d45d4c5e2882.png)
+![localhost_3000_ (5)](https://user-images.githubusercontent.com/89513813/226938963-3cd19a8a-be68-486f-bae8-826035d088d8.png)
 ![localhost_3000_ (2)](https://user-images.githubusercontent.com/89513813/226938414-4f72105e-c604-4807-837e-4e94344f966c.png)
 
 ## Responsive UI
